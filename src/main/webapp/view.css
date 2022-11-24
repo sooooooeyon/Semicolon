@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+body{
+	margin: 0;
+}
+
+/* 라이브러리 */
+
+.inline-grid >* {
+	font-size: lrem;
+	display: inline-block;
+	vertical-aling: top;
+	box-sizing: border-box;
+}
+
+.con-1{
+	border: 10px solid gold;
+	width: 900px;
+	
+}
+
+.box-1 {
+  width:100px;
+  height:100px;
+  margin-top:100px;
+  background-color:red;
+}
+
+.box-1-1 {
+  border:10px solid blue;
+  padding:10px;
+}
+
+.box-1-2 {
+  border:10px solid gold;
+  padding:10px;
+  box-sizing: border-box;
+}
